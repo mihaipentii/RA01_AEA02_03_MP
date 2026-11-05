@@ -15,21 +15,4 @@ import { inject } from 'vue';
 const products = inject('products');
 </script>
 
-<style scoped>
-.category-list {
-  flex: 1;
-}
-
-h2 {
-  margin: 0 0 20px;
-  font-size: clamp(2rem, 2vw, 2.8rem);
-  line-height: 1.2;
-  font-weight: 800;
-}
-
-.products {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-</style>
+<style scoped src="../assets/styles/category-list.css"></style>
